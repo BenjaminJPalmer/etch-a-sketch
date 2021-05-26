@@ -10,6 +10,21 @@
 
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 3px;
+}
+
 #reset {
-    
+    background-color: #e63946;
+    color: #f1faee;
+    transition: 1s;
+    box-shadow: 3px 3px 10px grey;
+}
+
+#reset:hover {
+    background-color: #f1faee;
+    color: #e63946;
 }
